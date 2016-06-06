@@ -1,0 +1,18 @@
+<ul style="float:right">
+		<?php if (isset($_SESSION['user'])) {
+		echo '<li class="list"><a href="/logout/true/" class="nav-link btn btn-default"><span class="typcn typcn-power off"></span><span class="load_"> Logout</span></a></li>';
+		}
+		else {
+		echo "<li class=\"list\"><a href=\"/login/\" class=\"nav-link btn btn-default\"><span class=\"typcn typcn-user fi-big\"></span><span class=\"load_\"> Hi! Please log in !</span></a></li>";
+		}
+		if ($_SESSION['gid'] === "9")
+		{
+		echo '<li class="list"><a href="/admin/admin.php" class="nav-link btn btn-default"><span class="typcn typcn-briefcase"></span><span class="load_"> Admin Panel</span></a></li>';
+		} ?>
+		</ul>
+		<ul>
+		<?php if(isset($_SESSION['user'])) {
+		echo "<li class=\"list user\" id=\"stats\"><a href=\"/index/\" class=\"nav-link btn btn-default\"><img class=\"avatar-nav\" src=\"/{$_SESSION['avatar']}\"><span class=\"profile load_\"> {$_SESSION['user']}</span></a></li>";
+		} ?>
+		</ul>
+		</nav>

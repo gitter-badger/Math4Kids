@@ -1,0 +1,11 @@
+<script src="/inc/js/jquery.js"></script>
+<script src="/inc/js/bootstrap.js"></script>
+<script src="/inc/js/underscore.js"></script>
+<script src="/inc/js/pace.js"></script>
+<script src="/inc/js/script.js"></script>
+<script src="/inc/js/jquery.notify.js"></script>
+<script src="/inc/js/jquery.ddslick.js"></script>
+<noscript>
+    <img src="no_js.gif" alt="Javascript not enabled"/><br>
+    <a href="/kb/javascript.php">JavaScript is not enabled in your browser</a>
+</noscript>

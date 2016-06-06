@@ -1,0 +1,45 @@
+<div class="container">
+<div class="row">
+		<div class="offset-by-four columns four columns center">
+		<p class="classes-header">
+		Choose class
+		</p>
+		</div>
+		</div>
+		<br>
+		<div class="row">
+		<div class="col-md-4 center class-card">
+		<a href="/class/1/">
+		<p class="class-big">
+		1st Class
+		</p>
+		<br>
+		<ul class="class-program">
+		<li> Addition </li>
+		<li> Substract </li>
+		</ul>
+		</p>
+		</a>
+		</div>
+		<div class="col-md-4 center class-card-disabled">
+		<p class="class-big">
+		2st Class
+		</p>
+		<br>
+		<ul class="class-program">
+		<li> Addition </li>
+		<li> Substract </li>
+		</ul>
+		</div>
+		<div class="col-md-4 center class-card-disabled">
+		<p class="class-big">
+		3st Class
+		</p>
+		<br>
+		<ul class="class-program">
+		<li> Addition </li>
+		<li> Substract </li>
+		</ul>
+		</div>
+		</div>
+		</div>

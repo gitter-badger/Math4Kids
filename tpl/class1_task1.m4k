@@ -1,0 +1,34 @@
+<div class="container">
+<div class="row">
+		<div class="offset-by-four columns four columns center">
+		<p class="classes-header">
+		Complete task
+		</p>
+		</div>
+		</div>
+		<br>
+		<div class="row" id="tasks">
+		<div class="col-md-3 center task-input">
+		<input class="task i4n" id="value" readonly>
+		</div>
+		<div class="col-md-1 center task-sign">
+		<span class="typcn" id="sign-1"></span>
+		</div>
+		<div class="col-md-3 center task-input">
+		<input class="task i4n" id="to" readonly>
+		</div>
+		<div class="col-md-1 center task-sign">
+		<span class="typcn" id="sign-2"></span>
+		</div>
+		<div class="col-md-3 center task-input">
+		<input class="task i4n" id="equal" readonly>
+		</div>
+		</div>
+		<div class="row buttons" id="buttons" style="margin-top:2em;">
+		<div class="col-md-4"></div>
+		</div>
+		<span id="result"></span>
+		<div class="check">
+		<span class="check-popup"></span>
+		</div>
+</div>

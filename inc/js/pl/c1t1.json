@@ -1,0 +1,23 @@
+{
+	"task":[
+		{
+			"value":"1",
+			"to":"2",
+			"equal":"null",
+			"correct":"3",
+			"field":"equal"
+		},{
+			"value":"3",
+			"to":"null",
+			"equal":"5",
+			"correct":"2",
+			"field":"to"
+		},{
+			"value":"null",
+			"to":"3",
+			"equal":"7",
+			"correct":"4",
+			"field":"value"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Mat4Kid to międzynarodowy projekt dwóch szkół ponadgimnazjalnych, mający na celu naukę podstaw matematyki w klasach 1-3 szkoły postawowej w Polsce i na Słowacji. Projekt zgodny z wymaganiami podstawy programowej w obu państwach.">
+		<meta name="generator" content="none">
+		<?php global $meta; if($meta === "login"){echo "<meta http-equiv='refresh' content='3; url=/index/'>";} ?>
+		<meta name="keywords" content="matematyka, 1 klasa, 1 klasa podstawowa, szkoła podstawowa, podstawa programowa, proste, łatwe, przyjemne, polska, słowacja, nauka, zabawa, szkoła, pierwszak, pierwsza klasa, druga klasa, 2 klasa, 2 klasa podstawowa, 3 klasa, trzecia klasa, drugoklasista, trzecioklasista, 3 klasa podstawowa, test trzecioklasisty, test 3 klasa, test, przygotowanie">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="/inc/css/bootstrap.css">
+		<link rel="stylesheet" href="/inc/css/typicons.css">
+		<link rel="stylesheet" href="/inc/css/custom.css">
+		<link rel="stylesheet" href="/inc/css/font.css" hint="font-krzysia">
+		<link rel="canonical" href="<?php global $config; echo $config['canonical'];?>" />
+		<title>Mat4Kid</title>
+		<?php if (isset($_GET['task']) && isset($_GET['class']) && isset($_SESSION['user'])) {echo "<div class=\"loader-bg\"></div>";} ?>
+	</head>
+	<body>
+		<div class="container">
+			<nav class="navbar">
+			<h2 class="center">
+			<a href="<?php global $config; echo $config['canonical'];?>/index/">Mat4Kid</a>
+		</h2>

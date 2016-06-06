@@ -1,0 +1,10 @@
+{
+	"sign1":"plus",
+	"sign2":"equals",
+	"type":"add",
+	"taskfullname":"adding to 10",
+	"classname":"1st",
+	"buttons":3,
+	"min":0,
+	"max":10
+}
